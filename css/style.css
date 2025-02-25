@@ -1,4 +1,105 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Emre Guzel 
+* Created on: Feb 24 2025
 * This file contains the CSS for index.html
 */
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(76, 178, 219);
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  overflow: scroll;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  padding-left: 30%;
+  ;
+}
+
+.birth-year {
+  font-size: 2rem;
+  margin-left: 4%;
+  margin-top: 2rem;
+  color: white;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.bill-img {
+  width: 15%;
+  text-align: center;
+  margin-left: 5rem;
+  border-radius: 50%;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.demo-card-square>.mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.invetions {
+  color: white;
+  font-weight: 900;
+  font-style: bold;
+  margin-left: 2rem;
+}
+
+.bill-gates,
+h4 {
+  color: white;
+  font-weight: 450;
+  margin-left: 1.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  font-style: italic;
+  padding-right: 2rem;
+}
+
+.Biil-title {
+  font-size: 4rem;
+  font-style: bold;
+  font-weight: 900;
+  margin-left: 4%;
+  color: white;
+}
+
+.learn-more {
+  color: white;
+  background: black;
+  width: 100%;
+  font-style: bold;
+
+}
+
+.learn-more-card {
+  font-size: 2rem;
+  background: darkblue;
+  color: white;
+  width: 30%;
+  text-indent: 2rem;
+}
+
+#Facts{
+  margin-left: 2rem;
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 25%;
+  margin-left: 2rem;
+}
