@@ -83,23 +83,61 @@ h4 {
   width: 100%;
   font-style: bold
 }
-/* ssss */
+
+Heading,
+h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: normal;
+}
 
 .learn-more-card {
   font-size: 2rem;
   background: darkblue;
   color: white;
   width: 30%;
-  text-indent: 2rem;
 }
 
-#Facts{
+.info {
+  padding-left: 2rem;
+  text-indent: 1rem;
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+#Facts {
   margin-left: 2rem;
+}
+
+#Facts-card-section {
+  background-color: aqua;
+}
+
+.quoets {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 30%;
+  background: rgb(27, 35, 119);
+  color: white;
+  padding: 2rem;
+  font-family: sans-serif;
+
+}
+
+.hitory-card {
+  background: darkblue;
+  color: white;
+  width: 50%;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  padding: 2rem;
+
 }
 
 footer {
   display: flex;
   margin-top: 3rem;
   margin-left: 25%;
-  margin-left: 2rem;
 }
